@@ -1,0 +1,214 @@
+body{
+    background: #C9C9C9;
+ 
+    font-family:cursive;
+}
+#logo{
+    font-size: 40px;
+    font-weight: bolder;
+    padding:20px;
+    margin: 20px;
+}
+#menu{
+    margin-top: 20px;
+
+}
+#menu a{
+    color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#drop-menu li a{
+  color:#000;
+}
+div#ville{
+    margin-left: 10px;
+}
+div#boutique{
+    margin-right: 10px;
+}
+footer{
+    height:50px;
+    background-color: #FFFFFE;
+    border-top: solid 1px rgba(0,0,0,0.8);
+}
+ul.footer{
+    list-style: none;
+    margin: 20px;
+}
+ul.footer li{
+    display: inline-block;
+    color: blue;
+}
+#products{
+    margin: 10px;
+}
+#qte{
+    width:50px;
+}
+#category{
+    background:rgba(0,0,0,0.1);
+}
+form{
+    padding: 20px;
+}
+#marged{
+  margin: 50px;
+}
+
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+
+ .box
+        {
+         width:250px;
+         height:300px;
+         margin:10px;
+         float:left;
+         position:relative;
+        }
+        .image
+        {
+                   width:100%;
+                   height:60%;
+
+            position:relative;
+        }
+        .name
+        {
+           width:100%;
+           height:40%;
+           position:relative;
+
+           text-align:center;
+           font-size:18px;
+           color:black;
+        }
+         
+     /* 
+      .boximage
+{
+    width: 100%;
+    height: 400px;
+   
+    position: relative;
+
+
+}
+
+
+.picture
+{
+  
+   
+
+
+}
+*/
+
+          .brandlogo
+{
+    width:9%;
+    height:60px;
+    float: left;
+    margin:3px;
+    border-radius: 50%;
+    position: relative;
+    margin-left:20px; 
+
+
+}
+.imagebrand
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.brandlogo:hover
+{
+
+                transform:translateY(-10px);
+                 transform:scale(1.25);
+                 box-shadow:0px 8px 20px #9a9a9a;
+                 background:rbga(0,0,0,.5);
+                  z-index:2;
+
+}
+
+  
+
+
+ .webname
+ {
+
+    position:relative;
+  color:orange;
+  font-size:30px;
+    box-shadow:0px 8px 6px orange;
+
+ border-radius: 20%;
+
+
+
+ }
+     
